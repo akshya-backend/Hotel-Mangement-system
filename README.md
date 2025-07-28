@@ -1,4 +1,4 @@
-# 🏨 Hotel Booking System - Backend
+# 🏨 Hotel Booking and Mangement System - Backend
 
 A secure, scalable hotel room booking backend built with **Node.js**, **Fastify**, **Sequelize**, and **MySQL**.
 
