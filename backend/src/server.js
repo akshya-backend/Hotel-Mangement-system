@@ -2,12 +2,12 @@
 import Fastify from 'fastify';
 import dotenv from 'dotenv';
 import jwt from '@fastify/jwt';
-import dbConnector from './plugins/db-plugin.js';
 import indexRoute from './routes/indexRoute.js';
 import  authPlugins  from './plugins/auth-plugin.js';
 import fastifyCors from '@fastify/cors';
 import fastifyHelmet from '@fastify/helmet';
 import fastifyRateLimit from '@fastify/rate-limit';
+import { dbConnector } from './confiq/db.js';
 
 dotenv.config();
 const app = Fastify({ logger: true });
@@ -34,7 +34,7 @@ app.register(fastifyRateLimit, {
 });
 
 // 3. DB connector
- await dbConnector()
+ await dbConnector();
 
 // 4. Routes (which depend on the above)
 app.register(indexRoute, { prefix: '/api/v1' });
