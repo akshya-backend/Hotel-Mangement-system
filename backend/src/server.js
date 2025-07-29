@@ -34,7 +34,7 @@ app.register(fastifyRateLimit, {
 });
 
 // 3. DB connector
-app.register(dbConnector);
+ await dbConnector()
 
 // 4. Routes (which depend on the above)
 app.register(indexRoute, { prefix: '/api/v1' });
