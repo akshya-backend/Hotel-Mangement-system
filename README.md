@@ -3,7 +3,7 @@
 A secure, scalable hotel room booking backend built with **Node.js**, **Fastify**, **Sequelize**, and **MySQL**.
 
 ## 📦 Project Overview
-![Model Architecture](/arch model/system design.png)
+![Model Architecture](./arch%20model/system%20design.png)
 
 This backend system supports:
 
