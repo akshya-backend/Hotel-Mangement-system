@@ -20,3 +20,9 @@
 {"level":"error","message":{"name":"SequelizeConnectionRefusedError","original":{"address":"172.18.0.2","code":"ECONNREFUSED","errno":-111,"fatal":true,"port":3306,"syscall":"connect"},"parent":{"address":"172.18.0.2","code":"ECONNREFUSED","errno":-111,"fatal":true,"port":3306,"syscall":"connect"}},"timestamp":"2025-07-29T01:57:56.569Z"}
 {"level":"error","message":{"name":"SequelizeConnectionRefusedError","original":{"address":"172.18.0.2","code":"ECONNREFUSED","errno":-111,"fatal":true,"port":3306,"syscall":"connect"},"parent":{"address":"172.18.0.2","code":"ECONNREFUSED","errno":-111,"fatal":true,"port":3306,"syscall":"connect"}},"timestamp":"2025-07-29T02:00:40.912Z"}
 {"level":"error","message":"Database connection failed.","timestamp":"2025-07-29T02:04:01.224Z"}
+{"level":"error","message":"Database connection failed.","timestamp":"2025-07-30T00:02:27.237Z"}
+{"level":"error","message":"Database connection failed.","timestamp":"2025-07-30T00:02:42.820Z"}
+{"level":"error","message":"Database connection failed.","timestamp":"2025-07-30T00:02:48.637Z"}
+{"level":"error","message":"Database connection failed.","timestamp":"2025-07-30T00:36:46.215Z"}
+{"level":"error","message":"Database connection failed.","timestamp":"2025-07-30T03:50:45.613Z"}
+{"level":"error","message":"Database connection failed.","timestamp":"2025-07-30T03:54:41.926Z"}

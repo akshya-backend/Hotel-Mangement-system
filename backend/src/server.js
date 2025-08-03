@@ -7,7 +7,7 @@ import  authPlugins  from './plugins/auth-plugin.js';
 import fastifyCors from '@fastify/cors';
 import fastifyHelmet from '@fastify/helmet';
 import fastifyRateLimit from '@fastify/rate-limit';
-import { dbConnector } from './confiq/db.js';
+import { dbConnector } from './model/index_model.js';
 
 dotenv.config();
 const app = Fastify({ logger: true });
