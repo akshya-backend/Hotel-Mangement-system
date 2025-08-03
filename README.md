@@ -3,6 +3,7 @@
 A secure, scalable hotel room booking backend built with **Node.js**, **Fastify**, **Sequelize**, and **MySQL**.
 
 ## 📦 Project Overview
+![Model Architecture](./arch model/system design.png)
 
 This backend system supports:
 
@@ -38,3 +39,5 @@ This backend system supports:
 ```bash
 git clone https://github.com/your-username/hotel-room-booking-system.git
 cd hotel-room-booking-system
+
+
